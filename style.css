@@ -3,7 +3,11 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: #222;
   margin: 0;
+<<<<<<< HEAD
   padding: 20px;
+=======
+  padding: 20px; 
+>>>>>>> 9f52de433be57545d044d4070e4746f4304de472
 }
 
 nav {

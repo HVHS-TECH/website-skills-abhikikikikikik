@@ -1,13 +1,72 @@
 body {
   background-color: lightblue;
-  font-family: sans-serif;
-  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #222;
+  margin: 0;
+  padding: 20px;
+}
+
+nav {
+  margin-bottom: 30px;
+  padding: 10px;
+}
+
+nav a {
+  background: white;
+  color: black;
+  padding: 8px 15px;
+  text-decoration: none;
+  border-radius: 20px;
+  margin: 0 5px;
+  font-weight: bold;
+  border: 2px solid black;
+  transition: 0.2s;
+}
+
+nav a:hover {
+  background: black;
+  color: white;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  letter-spacing: -2px;
 }
 
 img {
   width: 150px;
   height: 100px;
   object-fit: cover;
-  border-radius: 5px;
-  margin: 5px;
+  border-radius: 10px;
+  margin: 10px;
+  border: 3px solid white;
+  transition:
+    transform 0.3s,
+    border-color 0.3s;
+}
+
+img:hover {
+  transform: scale(1.1) rotate(2deg);
+  border-color: black;
+  cursor: pointer;
+}
+
+.profile-pic {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  display: block;
+  margin: 20px auto;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.fav-hobby {
+  font-weight: bold;
+  color: #d11141;
 }

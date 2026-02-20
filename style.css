@@ -35,6 +35,7 @@ h1 {
   letter-spacing: -2px;
 }
 
+/* Base image styling */
 img {
   width: 150px;
   height: 100px;
@@ -71,21 +72,32 @@ ul {
   color: #d11141;
 }
 
-/* --- SIMPLE GRID CODE --- */
-
 .grid-container-test {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 10px;
   background: black;
   padding: 10px;
-  max-width: 500px;
+  max-width: 600px;
   margin: 20px auto;
+  border-radius: 8px;
 }
 
 .grid-box {
   background: white;
   min-height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.lake-name {
+  background-color: #90ee90;
+  font-weight: bold;
+  font-size: 0.85rem;
+  text-align: center;
+  padding: 5px;
 }
 
 .tall {
@@ -99,4 +111,7 @@ ul {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  margin: 0;
+  border: none;
+  border-radius: 0;
 }
